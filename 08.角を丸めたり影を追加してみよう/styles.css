@@ -42,9 +42,24 @@ main {
 
 
 /* li要素にスタイルを適用 */
+li {
+  color: #192F60;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
 
 /* header要素にスタイルを適用 */
+header {
+  border-radius: 20px 0px;
+}
 
 /* div要素にスタイルを適用 */
+div {
+  border-radius: 0 20px;
+}
 
 /* main要素内にスタイルを適用 */
+main{
+  overflow: auto;
+}
