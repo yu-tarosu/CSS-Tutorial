@@ -1,4 +1,4 @@
- 
+ {
   padding: 0;
   margin: 0;
 }
@@ -7,10 +7,6 @@ header {
   text-align: center;
   background-color: darkblue;
   color: white;
-}
-
-.size{
- background-color: red;
 }
 
 main {
@@ -51,6 +47,6 @@ img {
 /* header要素にスタイルを適用 */
 header {
   position: sticky;
-  top: 0px;
+  top: 0px:
   opacity: 0.9;
 }
