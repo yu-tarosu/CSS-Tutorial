@@ -3,9 +3,10 @@
   margin: 0;
 }
 
-body {
+.container {
   max-width: 1040px;
   margin: 0 auto;
+  background: lightgray;
 }
 
 header {
@@ -27,7 +28,7 @@ main {
 }
 
 div {
-  background-color: darkblue;
+ /* background-color: darkblue; */
   color: white;
 }
 
@@ -37,43 +38,44 @@ footer {
 
 
 /* body要素にスタイルを適用 */
-body {
+.container {
  display: flex;
  flex-direction: column;
  align-items: center;
+ text-align: center;  
  gap: 50px;
 }
 
 
 /* header要素にスタイルを適用 */
-header {
+/*header {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
  align-items: flex-end;
-}
+}*/
 
 /* ul要素にスタイルを適用 */
-ul {
+/*ul {
  display: flex;
  flex-direction: row;
  gap: 24px;
-}
+}:*/
 
 
 /* div要素にスタイルを適用 */
-div{
+/*div{
  width: 200px;
  height: 200px;
  text-align: center;
  line-height: 200px;
-}
+}*/
 
 
 /* main要素にスタイルを適用 */
-main{
+/*main{
  display: flex;
  flex-direction: row;
  justify-content: center;
  gap: 10px;
-}
+}*/
